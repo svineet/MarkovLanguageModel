@@ -63,4 +63,6 @@ def traverse_graph(adj, seed):
 if __name__ == '__main__':
     adj = make_graph()
     seed = input()
-    print(" ".join([seed]+traverse_graph(adj, seed)))
+    while (seed is not "stfu"):
+        print(" ".join([seed]+traverse_graph(adj, seed)))
+        seed = input()
