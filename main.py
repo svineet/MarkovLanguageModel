@@ -63,6 +63,9 @@ def traverse_graph(adj, seed):
 if __name__ == '__main__':
     adj = make_graph()
     seed = input()
-    while (seed is not "stfu"):
+    while (seed != "stfu"):
         print(" ".join([seed]+traverse_graph(adj, seed)))
+        for (key, val) in visited.items():
+            visited[key] = False
         seed = input()
+    print("kthxbai hope you enjoyed the disappointing progrem xd gci winur 2017")
