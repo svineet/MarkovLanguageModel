@@ -68,4 +68,4 @@ if __name__ == '__main__':
         for (key, val) in visited.items():
             visited[key] = False
         seed = input()
-    print("kthxbai hope you enjoyed the disappointing progrem xd gci winur 2017")
+    print("I need all the memes to survive.")
